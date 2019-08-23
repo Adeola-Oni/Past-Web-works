@@ -1,0 +1,12 @@
+.inputBox{
+    padding: 1%;
+    text-align: center;
+    border-radius: 1%;
+}
+
+.isa_success {
+    margin: 10px 0px;
+    padding:12px;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}

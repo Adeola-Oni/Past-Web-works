@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+.records{
+    padding-top: 2%;
+}
+
+.navbar{
+    background-color: yellow;
+    color: red;
+}

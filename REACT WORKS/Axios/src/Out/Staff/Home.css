@@ -1,0 +1,24 @@
+.all{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.contents{
+    font-size: 1.5rem;
+}
+
+.ui.segment{
+    font-size: 1.5rem;
+}
+
+li{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.container{
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}

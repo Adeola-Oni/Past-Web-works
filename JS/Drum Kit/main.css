@@ -1,0 +1,37 @@
+.effect{
+    width: 8%;
+    margin: 0.5%;
+    height: auto;
+    outline-offset: 0;
+    outline: 5px solid yellow;
+    background-color: white;
+}
+
+
+body{
+    background: url('images/img.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.9;
+
+}
+
+.button{
+    width: 8%;
+    margin: 0.5%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 4%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1{
+    color: black;
+    font-family: cursive;
+    font-size: 250%;
+}

@@ -1,0 +1,12 @@
+.center{
+    text-align: center;
+    padding: 2%;
+}
+
+body{
+    background-color: rgb(34, 33, 33);
+    font-family: sans-serif;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}

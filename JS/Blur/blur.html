@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blur App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="blur.css" />
+    
+</head>
+<body>
+    <div class="row head ">
+        <h1>Update CSS Variables with <span id="yellow">JS</span></h1>
+    </div>
+
+    <div class="row head">
+        <div class="col-3"> 
+            Space
+            <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+        </div>
+
+        <div class="col-3"> 
+            Blur
+            <input id="blur" type="range" name="blur" min="10" max="200" value="10" data-sizing="px">
+        </div>
+
+        <div class="col-3"> 
+            BaseColor
+            <input id="base" type="color" name="base" value="#FF8040">
+        </div>
+
+        <div class="col-3"> 
+            Image
+            <input id="img" type="file" accept="image/png, image/jpeg, image/jpg"/>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="row imageTag">
+        <img src="images/dogs.jpg" id="image"/>
+    </div>
+
+    <script src="blur.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.records{
+    padding-top: 3%;
+}
+
+.editable{
+    color: black;
+    border: 0px;
+}
+
+.close{
+    text-align: right;
+    padding-left: 10%;
+}

@@ -1,0 +1,66 @@
+.form{
+   /* margin: 5%; */
+   background-color: transparent;
+   padding: 5%;
+   
+   /* box-shadow: 10px 10px 20px rgb(12, 97, 33); */
+}
+.all{
+    margin-top: 5%;
+}
+
+html{
+    /* background : linear-gradient(to top right, #013042 0%, #02638a  100%); */
+    /* background-color: #013042; */
+    background-repeat:no-repeat; 
+    height: 100%;
+}
+body{
+    background: transparent;
+    color: black;
+    background-repeat: no-repeat;
+
+}
+
+.image{
+    border: 2px solid  #51B74B;
+}
+/* .inp{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+
+}
+
+.inp:focus{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid greenyellow;
+} */
+
+.col{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    color: black;
+   border-radius: 10px 10px;
+   /* box-shadow: 3px 4px 2px rgb(43, 99, 40); */
+}
+
+.column{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 2%;
+    height: 200px;
+    
+}
+
+/* .page{
+    background-color: rgb(46, 107, 43);
+    height: 465px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover ;
+} */

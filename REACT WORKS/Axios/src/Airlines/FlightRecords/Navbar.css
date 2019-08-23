@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(233, 223, 223);
+}
+
+.navitem{
+    color: white;
+}
+
+.navitem:hover{
+    color: rgb(245, 170, 170);
+}

@@ -1,0 +1,41 @@
+.box{
+    text-align: center;
+    margin: 2px;
+    margin-top: 5%;
+    color: aqua;
+}
+
+body{
+    /* background: url('./img/imm.jpg'); */
+    background-size: cover;
+    background-position: contain;
+    /* color: white; */
+}
+
+.list{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.table{
+    text-align: center;
+}
+.tablerow{
+    text-align: center;
+}
+
+.data{
+    text-align: center;
+    border: 2px solid white;
+    padding: 2%;
+    width: 10%;
+}
+
+.dataGotten{
+    text-align: center;
+    border: 2px solid rgb(123, 247, 247);
+    padding: 2%;
+    width: 10%;
+    background-color: rgb(123, 247, 247);
+    color: black;
+}

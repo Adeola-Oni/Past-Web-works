@@ -1,0 +1,20 @@
+.ul{
+    list-style-type: none;
+}
+
+.li{
+    float: left;
+    padding-right: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+};
+
+.section{
+    padding-top: 30%;
+}
+
+.li:hover{
+    color: rgb(164, 164, 240)
+}

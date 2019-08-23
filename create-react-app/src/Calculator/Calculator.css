@@ -1,0 +1,48 @@
+.Calculator_frame{
+    height: 100vh;
+}
+
+.Calculator_input{
+    background-color: white;
+    height: 10vh;
+    width: 95vw;
+    border: 3px solid purple;
+    margin: 2%;
+}
+
+.Calculator_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    height: 15vh;
+    flex: 0 1 300px;
+    border: 1px solid violet;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    /* margin-top: 0.2%; */
+}
+
+.colored_button{
+    background-color:  purple;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    color: red;
+    border: 1px solid white;
+}
+
+.input_space{
+    color: black;
+    text-align: right;
+    font-size: 60px;
+    font-family: cursive;
+    background-color: transparent;
+    outline: none;
+}
+
+/* @keyframes  */

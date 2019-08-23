@@ -1,0 +1,70 @@
+body{
+    color: black;
+}
+
+nav{
+    margin-bottom: 5%;
+    background-color: gray;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding-right: 6%;
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(190, 173, 173, 0.2), 0 6px 20px 0  rgba(155, 154, 154, 0.2);
+}
+
+.links a{
+    color: green;
+    text-decoration: underline;
+    padding-left: 7%;
+}
+
+.center{
+    text-align: center;
+}
+
+.mess{
+    color: white;
+    padding-bottom: 2%;
+}
+
+.studentform{
+    padding: 5%;
+    margin: 5%;
+}
+
+td{
+    font-size: 80%;
+}
+
+th{
+    font-size: 80%;
+}
+
+.errorpage {
+    /* The image used */
+    background-image: url("pictures/error.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

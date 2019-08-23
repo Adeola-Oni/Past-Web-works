@@ -1,0 +1,469 @@
+.header{
+    background-image: linear-gradient(to right bottom, 
+    rgba(113, 217, 243, 0.603),
+    rgba(240, 28, 240, 0.603)), url('../img/hey3.jpg');
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    background-repeat: no-repeat;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    backface-visibility: hidden;
+}
+
+body{
+    margin: 1%;
+    padding: 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.main-text{
+    display: block;
+    letter-spacing: 20px;
+    font-size: 70px;
+    animation-name: moveInTop;
+    animation-duration: 5s;
+}
+
+.small-text{
+    display: block;
+    font-size: 25px;
+    animation-name: moveInTop;
+    animation-duration: 5s;
+}
+
+.buy-wine{
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 1.5%;
+    border-radius: 100px;
+    width: 30%;
+    animation-name: moveInBottom;
+    animation-duration: 4s;
+}
+
+.buy-wine:hover{
+    border: 2px solid rgb(88, 1, 88);
+    transform: translateY(-2%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.356);
+}
+
+ul{
+    display: block;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    border-bottom: 2px solid black ;
+}
+
+li:hover{
+    /* transform: translateY(-10%);
+    border-bottom: 2px solid black ; */
+}
+
+@keyframes moveInTop {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(100px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+.section-pics{
+    margin-top: -12%;
+    background-color: rgba(240, 28, 240, 0.158);
+    padding-bottom: 5%;
+}
+
+.sides{
+    width: 100%;
+    padding-top: 12%;
+}
+
+.header-name{
+    letter-spacing: 8px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.first-side{
+    padding-top: 2%;
+}
+
+.second-side{
+    padding-top: 2%;
+}
+
+.section-img{
+    margin: 0.3%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.356);
+    border-radius: 2px;
+    position: relative;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+[class*="col-"]{
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+    background-color: teal;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For larger devices */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+.p1{
+    left: 0;
+    top: 1.5rem;
+    width: 45%;
+}
+
+.p2{
+    right: 2rem;
+    top: 3rem;
+    width: 41%;
+}
+
+.p3{
+    top: -3rem;
+    right: 2rem;
+    width: 40%;
+}
+
+.p1:hover{
+    border: 5px solid rgb(240, 28, 240);
+    padding: 1%;
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+.p2:hover{
+    border: 5px solid rgb(240, 28, 240);
+    padding: 1%;
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+.p3:hover{
+    border: 5px solid rgb(240, 28, 240);
+    padding: 1%;
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+.section-words{
+    text-align: left;
+    padding-left: 8%;
+}
+
+.section-words-small{
+    letter-spacing: 2px;
+}
+
+.section-words-large{
+    letter-spacing: 3px;
+}
+
+aside{
+    background-image: linear-gradient(to right bottom, 
+    rgba(113, 217, 243, 0.603),
+    rgba(240, 28, 240, 0.603)), url('../img/hey2.jpg');
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    background-repeat: no-repeat; 
+    margin-top: -8%;
+}
+
+.boxes{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box{
+    padding: 4%;
+    background-color: white;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 100%;
+    border: 3px solid purple;
+}
+
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.winebox-card{
+    margin-left: 40%;
+    margin-left: 40%;
+    
+}
+.card{
+    perspective: 40rem;
+}
+
+.card_side{
+    background-color: red;
+    height: 20rem;
+    transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.front{
+    background-color: red;
+}
+
+.front:hover{
+    transform: rotateY(180deg);
+}
+
+.back{
+    background-color: greenyellow;
+    transform: rotateY(110deg);
+}
+
+.back:hover{
+    transform: rotateY(0deg);
+}
+
+.stories{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: yellow;
+
+}
+
+.story{
+    width: 60%;
+    box-shadow: 0 3rem 4rem rgba(170, 170, 170, 0.486);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 1%;
+    text-align: left;
+    padding-bottom: 2%;
+    transform: skewX(-15deg);
+    margin-bottom: 3%;
+    background-color: white;
+}
+
+.story_text{
+    transform: skewX(15deg)
+}
+
+.story_shape{
+    height: 8rem;
+    width: 8rem;
+    margin: 1%;
+    padding: 0;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    transform: translateX(-1rem) skewX(15deg);
+    position: relative;
+}
+
+.story_shape_img{
+    height: 100%;
+    transform: translateX(0rem) scale(1.2);
+    backface-visibility: hidden;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+    opacity: 0;
+    color: white;
+}
+
+.story:hover .caption{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: all .6s;
+}
+
+.story:hover .story_shape_img{
+    transform: translateX(0rem) scale(1);
+    filter: blur(3px)
+}
+
+.read_more{
+    color: purple;
+    border: 2px solid purple;
+    margin-bottom: 2%;
+    background-color: transparent;
+    padding: 1%;
+    text-transform: uppercase;
+    border-radius: 100px;
+    width: 15%;
+}
+
+.read_more:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.356);
+}
+
+.vid_part{
+    position: relative;
+}
+
+.bg_video{
+   position: absolute;
+   left: 0;
+   top:0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   margin-top: -5%;
+   opacity: 0.5;
+   object-fit: cover;
+}
+
+.booking{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, 
+    rgb(243, 113, 221),
+    rgb(182, 18, 223))
+}
+
+.booking_img {
+    z-index: -1;
+}
+
+.form{
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+    transform: translate(19.2%, -89.7%);
+    background-color: rgba(255, 255, 255, 0.842);
+    height: 70vh;
+    width: 70vw;
+    clip-path: polygon(55% 0, 100% 0, 100% 100%, 35% 100%);
+    text-align: right;
+}
+
+.booking_image{
+    height: 70vh;
+    width: 70vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(20%, 20%);
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%,
+         rgba(239, 226, 241, 0.767) 50%), url('../img/Map.jpg');
+    background-size: 100%;
+}
+
+.booking_form_title{
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+.booking_form{
+    margin-left: 50%;
+}
+
+.booking_input{
+    font-size: 0.8rem;
+    padding: 2%;
+    margin-top: 2rem;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.726);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 80%;
+    margin-left: 10%;
+    display: block;
+}
+
+.booking_input:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgb(156, 156, 156);
+    border-bottom: 3px solid rgb(3, 196, 3);
+}
+
+.booking_input:focus:invalid{
+    border-bottom: 3px solid purple;
+}
+
+.label_input{
+    font-size: 0.9rem;
+    /* opacity: 0; */
+}
+
+.booking_input:focus .label_input{
+    opacity: 1;
+}
